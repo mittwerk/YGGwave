@@ -23,7 +23,7 @@ Add your streaming link in markdown format to the network registry you are inter
 Please make a new branch of tree selected for each patch before create PR
 
 ```
-git checkout master
+git checkout main
 git checkout -b my-pr-branch-name
 ```
 
