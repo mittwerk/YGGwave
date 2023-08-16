@@ -43,8 +43,14 @@ git checkout -b my-pr-branch-name
 
 #### Feedback
 
-Please, feel free to share your ideas and bug reports [here](https://github.com/YGGverse/YGGwave/issues) or use sources for your own implementations.
+Feel free to [share](https://github.com/YGGverse/YGGwave/issues) your ideas and bug reports!
+
+#### Community
+
+* [Mastodon](https://mastodon.social/@YGGverse)
+* [[matrix]](https://matrix.to/#/#YGGwave:matrix.org)
 
 #### See also
 
 * [YGGo! - Distributed & Open Source Web Search Engine](https://github.com/YGGverse/YGGo)
+* [YGGstate - Yggdrasil Network Explorer](https://github.com/YGGverse/YGGstate)
