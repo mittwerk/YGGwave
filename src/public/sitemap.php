@@ -5,7 +5,7 @@ header('Content-type: application/xml; charset=utf-8');
 echo '<?xml version="1.0" encoding="UTF-8"?>';
 echo '<urlset>';
 
-if ($signals = file_get_contents('SIGNALS/YGGDRASIL.md')) {
+if ($signals = file_get_contents(__DIR__ . '/../../SIGNALS/YGGDRASIL.md')) {
 
   foreach (explode(PHP_EOL, $signals) as $signal) {
 
