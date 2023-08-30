@@ -53,3 +53,4 @@ Feel free to [share](https://github.com/YGGverse/YGGwave/issues) your ideas and 
 
 * [YGGo! - Distributed & Open Source Web Search Engine](https://github.com/YGGverse/YGGo)
 * [YGGstate - Yggdrasil Network Explorer](https://github.com/YGGverse/YGGstate)
+* [YGGtracker - BitTorrent Tracker and Catalog for Yggdrasil ](https://github.com/YGGverse/YGGtracker)
