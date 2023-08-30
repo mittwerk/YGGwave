@@ -7,7 +7,6 @@
 #### Online instances
 
 * [http://[201:23b4:991a:634d:8359:4521:5576:15b7]/yggwave](http://[201:23b4:991a:634d:8359:4521:5576:15b7]/yggwave)
-* [http://94.140.114.241/yggwave/](http://94.140.114.241/yggwave)
 
 #### Contributions
 
