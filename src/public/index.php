@@ -23,6 +23,12 @@
 
                 $hash = crc32($data[2]);
 
+                $hex = str_split(substr(dechex($hash), 0, 6), 2);
+
+                $r = hexdec($hex[0]);
+                $g = hexdec($hex[1]);
+                $b = hexdec($hex[2]);
+
                 $result[] = sprintf('<div style="top:%s%%;left:%s%%">%s</div>',
                                     self::_getSignalPosition($hash),
                                     self::_getSignalPosition($hash, true),
@@ -34,7 +40,7 @@
                                                                                   alt="%s"
                                                                                   style="%s" />', urlencode($host),
                                                                                                   htmlentities($data[1]),
-                                                                                                  sprintf('background:#%s', substr(dechex($hash), 0, 6)))));
+                                                                                                  sprintf('background:rgba(%s,%s,%s,.3)', $r, $g, $b))));
               }
             }
           }
