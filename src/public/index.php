@@ -204,11 +204,11 @@
 
       main > div {
         position: absolute;
-        opacity: 0.8;
+        opacity: 1;
       }
 
       main > div:hover {
-        opacity: 1;
+        opacity: 0.8;
       }
 
     </style>
