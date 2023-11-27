@@ -1,0 +1,14 @@
+{
+    "name": "yggverse/yggwave",
+    "description": "YGGwave ~ The Radio Catalog",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Yggverse\\Yggwave\\": "src/"
+        }
+    },
+    "require": {
+        "jdenticon/jdenticon": "^1.0"
+    }
+}

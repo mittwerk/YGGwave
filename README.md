@@ -39,6 +39,7 @@ git checkout -b my-pr-branch-name
 #### Thanks
 
 * CSS background: [ColorSpace](https://mycolor.space/gradient?ori=to+right+top&hex=%23041B41&hex2=%232AB8C6&sub=1)
+* Icons: [jdenticon](https://github.com/dmester/jdenticon-php)
 
 #### Feedback
 

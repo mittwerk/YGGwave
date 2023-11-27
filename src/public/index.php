@@ -5,6 +5,9 @@
   ini_set('display_startup_errors', '1');
   error_reporting(E_ALL);
 
+  // Load dependencies
+  require_once __DIR__ . '/../../vendor/autoload.php';
+
   class YGGwave {
 
     public static function getSignals() {
@@ -21,6 +24,23 @@
 
               if ($host = parse_url($data[2], PHP_URL_HOST)) {
 
+                $identicon = new \Jdenticon\Identicon();
+
+                $identicon->setValue(
+                  $data[2]
+                );
+
+                $identicon->setSize(16);
+
+                $identicon->setStyle(
+                  [
+                    'backgroundColor' => 'rgba(255, 255, 255, 0)',
+                    'padding' => 0
+                  ]
+                );
+
+                $icon = $identicon->getImageDataUri('webp');
+
                 $hash = crc32($data[2]);
 
                 $hex = str_split(substr(dechex($hash), 0, 6), 2);
@@ -36,9 +56,9 @@
                                                 href="%s"
                                                 title="%s">%s</a>', htmlspecialchars($data[2]),
                                                                     htmlentities($data[1]),
-                                                                    sprintf('<img src="/yggo/file.php?type=identicon&query=%s"
+                                                                    sprintf('<img src="%s"
                                                                                   alt="%s"
-                                                                                  style="%s" />', urlencode($host),
+                                                                                  style="%s" />', $icon,
                                                                                                   htmlentities($data[1]),
                                                                                                   sprintf('background:rgba(%s,%s,%s,.3)', $r, $g, $b))));
               }
