@@ -26,3 +26,5 @@
 * [Soma FM / Deep Space One – Deep ambient electronic, experimental and space music. Music for getting lost in space, or just exploring. Tracks with a tempo usually too slow for Space Station Soma, but too fast for Drone Zone (https://somafm.com/deepspaceone)](http://[201:23b4:991a:634d:8359:4521:5576:15b7]/yggwave/radio/somafm/deepspaceone)
 * [Soma FM / Sonic Universe – Call it Modern Jazz, call it Fringes of Jazz, call it Nordic Jazz. None of the labels do this music the justice of what it really is: a new direction in music that takes its direction from classic innovators in the past (https://somafm.com/sonicuniverse)](http://[201:23b4:991a:634d:8359:4521:5576:15b7]/yggwave/radio/somafm/sonicuniverse)
 * [Freedom Flashback Radio](http://[324:71e:281a:9ed3::ace]/ff-radio)
+* [Grand Theft Auto - Vice City Radio](http://[201:23b4:991a:634d:8359:4521:5576:15b7]/yggwave/radio/gta/vice-city)
+* [Grand Theft Auto - Liberty City Radio](http://[201:23b4:991a:634d:8359:4521:5576:15b7]/yggwave/radio/gta/liberty-city)
