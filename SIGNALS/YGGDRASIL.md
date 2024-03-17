@@ -28,3 +28,5 @@
 * [Freedom Flashback Radio](http://[324:71e:281a:9ed3::ace]/ff-radio)
 * [Grand Theft Auto - Vice City Radio](http://[201:23b4:991a:634d:8359:4521:5576:15b7]/yggwave/radio/gta/vice-city)
 * [Grand Theft Auto - Liberty City Radio](http://[201:23b4:991a:634d:8359:4521:5576:15b7]/yggwave/radio/gta/liberty-city)
+* [Psyndora Psytrance](http://[203:e93b:9902:9064:5efe:575b:3284:e1d2]:8000/psytrance)
+* [Synthwave City FM](http://[203:e93b:9902:9064:5efe:575b:3284:e1d2]:8000/synthwave)
